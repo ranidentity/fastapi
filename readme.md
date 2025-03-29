@@ -1,9 +1,13 @@
-SCENARIO:
+Scenario
+WhatsApp (Business API/Sandbox) → Python Server → NLP Processing → Order System → Response
 
-Use spacy to capture objective (e.g. buy how many eggs)
+INITIAL DEV
+MAC::
+python3.10 -m venv tf-env      # Create
+source tf-env/bin/activate     # Activate (Mac/Linux)
+deactivate
 
-Use Asyncio to reply a proper response
+Window::
+Set-ExecutionPolicy RemoteSigned -Scope Process #allow powershell to run command
 
-
-This project:
-using en_core_web_trf for smarter response, but will slower
+.\myenv\Scripts\Activate.ps1
